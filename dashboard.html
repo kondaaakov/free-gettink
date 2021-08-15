@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gettink</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/f7a7a0545d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <a href="index.html" class="logo">Get<span class="logo_black">tink</span></a>
+        <h1 class="page__title">Dashboard</h1>
+        <ul class="header__nav">
+            <li class="header__item header__notif">
+                <i class="fas fa-bell"></i>
+            </li>
+            <li class="header__item">
+                <input type="checkbox" id="switch" class="header__switch">
+            </li>
+            <li class="header__item header__user">
+                <span class="header__user_text">FlackJK</span><i class="fas fa-user header__user_icon"></i> <i class="fas fa-chevron-down header__icon"></i>
+                <div class="logout">
+                    <i class="fas fa-power-off"></i> Log Out
+                </div>
+            </li>
+            <li class="header__item">
+                <img src="./sources/img/pic.png" alt="" class="header__img">
+            </li>
+        </ul>
+    </header>
+
+    <main class="main main_margin">
+        <div class="container">
+            <div class="row">
+                <div class="main__nav col-lg-2 col-md-2 col-sm-12">
+                    <ul class="main__navigation">
+                        <li class="main__item">
+                            <a href="./dashboard.html" class="main__link main__link_big main__link_active"><i
+                                    class="fas fa-th-list main__icon"></i> Dashboard</a>
+                            <a href="./dashboard.html" class="main__link main__link_active main__link_mini"><i
+                                    class="fas fa-th-list main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./download.html" class="main__link main__link_big"><i
+                                    class="fas fa-cloud-download-alt main__icon"></i> Download</a>
+                            <a href="./download.html" class="main__link main__link_mini"><i
+                                    class="fas fa-cloud-download-alt main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./subscription.html" class="main__link main__link_big"><i class="fas fa-wallet main__icon"></i>
+                                Subscription</a>
+                            <a href="./subscription.html" class="main__link main__link_mini"><i
+                                    class="fas fa-wallet main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./support.html" class="main__link main__link_big"><i class="fas fa-info-circle main__icon"></i>
+                                Support</a>
+                            <a href="./support.html" class="main__link main__link_mini"><i
+                                    class="fas fa-info-circle main__icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__content col-lg-6 col-md-7 col-sm-12">
+                    <div class="main__statistic">
+                        <div class="main__statistic_head">
+                            <h3 class="main__title">Statistics</h3>
+                            <select name="days" id="" class="main__days">
+                                <option value="1">7 days</option>
+                            </select>
+                        </div>
+                        <img src="./sources/img/Line.svg" alt="" class="main__img">
+                    </div>
+
+                    <div class="actions">
+                        <h3 class="main__title">Last actions</h3>
+                        <div class="actions__block">
+                            <div class="actions__side">
+                                <p class="actions__name">Cheepatun</p>
+                                <i class="fas fa-play actions__icon"></i>
+                                <p class="actions__text">Disable <span class="actions__mouse">W</span></p>
+                            </div>
+                            <div class="actions__side">
+                                <p class="actions__cost">3.333 ₽</p>
+                                <p class="actions__time">23:05 <i class="far fa-clock"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="col-lg-4 col-md-3 col-sm-12">
+                    <div class="active">
+                        <div class="active__head">
+                            <h3 class="active__title">Active Actions</h3>
+                            <a href="#" class="active__out"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <a href="#" class="active__link"><i class="fas fa-eye"></i> Embed link copied!</a>
+                        <div class="active__block">
+                            <div class="active__side">
+                                <img src="./sources/img/mouse_black.svg" alt="" class="active__img">
+                                <p class="actions__text">Disable <span class="actions__mouse">W</span></p>
+                            </div>
+                            <p class="active__time">0:46 <span class="active__time_other">/1:00</span></p>
+                            <div class="active__line"></div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer center">
+        <div class="footer__block">
+            <p class="footer__copy">Copyright © 2020 Gettink inc. All rights reserved.</p> <a href="#"
+                class="footer__link">Privacy Policy</a><a href="#" class="footer__link">Terms of Use</a>
+            <select name="lang" id="lang" class="footer__select">
+                <option class="footer__option" value="eng">ENG</option>
+            </select>
+        </div>
+        <div class="footer__block">
+            <a href="#" class="footer__link">INDEV</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

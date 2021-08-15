@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="535.272" height="196.91" viewBox="0 0 535.272 196.91">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a4db4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.149"/>
+    </linearGradient>
+    <filter id="_6" x="380" y="52.105" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_5" x="322" y="135.105" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_4" x="232" y="66.105" width="23" height="22" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_3" x="141" y="117.105" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_2" x="68" y="66.105" width="23" height="22" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_1" x="0" y="124.105" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Line" transform="translate(9.284)">
+    <path id="Контур_1415" data-name="Контур 1415" d="M0,111.833S31.943,54.9,67.122,53.308s31.58,52.151,73.591,52.151,49.254-56.787,94.451-52.151S285.142,127.333,321.5,124s8.772-81.559,59.1-84.021,142.227,74.17,142.227,74.17v58.106H0Z" transform="translate(2.449 23.653)" opacity="0.71" fill="url(#linear-gradient)"/>
+    <path id="Контур_1414" data-name="Контур 1414" d="M0,0V195.91H522.834" transform="translate(2.449)" fill="none" stroke="#e3e3e3" stroke-width="2"/>
+    <path id="Контур_1416" data-name="Контур 1416" d="M0,111.833S31.943,54.9,67.122,53.308s31.58,52.151,73.591,52.151,49.254-56.787,94.451-52.151S285.142,127.333,321.5,124s8.772-81.559,59.1-84.021,142.227,74.17,142.227,74.17" transform="translate(2.449 23.653)" fill="none" stroke="#198af7" stroke-linecap="round" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_6)">
+      <circle id="_6-2" data-name="6" cx="2.5" cy="2.5" r="2.5" transform="translate(389 61.1)" fill="#0082e1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_5)">
+      <circle id="_5-2" data-name="5" cx="2.5" cy="2.5" r="2.5" transform="translate(331 144.1)" fill="#0082e1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_4)">
+      <ellipse id="_4-2" data-name="4" cx="2.5" cy="2" rx="2.5" ry="2" transform="translate(241 75.1)" fill="#0082e1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_3)">
+      <circle id="_3-2" data-name="3" cx="2.5" cy="2.5" r="2.5" transform="translate(150 126.1)" fill="#0082e1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_2)">
+      <ellipse id="_2-2" data-name="2" cx="2.5" cy="2" rx="2.5" ry="2" transform="translate(77 75.1)" fill="#0082e1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.28, 0)" filter="url(#_1)">
+      <circle id="_1-2" data-name="1" cx="2.5" cy="2.5" r="2.5" transform="translate(9 133.1)" fill="#0082e1"/>
+    </g>
+  </g>
+</svg>

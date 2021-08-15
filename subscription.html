@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gettink</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/f7a7a0545d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <a href="index.html" class="logo">Get<span class="logo_black">tink</span></a>
+        <h1 class="page__title">Subscription</h1>
+        <ul class="header__nav">
+            <li class="header__item header__notif">
+                <i class="fas fa-bell"></i>
+            </li>
+            <li class="header__item">
+                <input type="checkbox" id="switch" class="header__switch">
+            </li>
+            <li class="header__item header__user">
+                <span class="header__user_text">FlackJK</span><i class="fas fa-user header__user_icon"></i> <i class="fas fa-chevron-down header__icon"></i>
+                <div class="logout">
+                    <i class="fas fa-power-off"></i> Log Out
+                </div>
+            </li>
+            <li class="header__item">
+                <img src="./sources/img/pic.png" alt="" class="header__img">
+            </li>
+        </ul>
+    </header>
+
+    <main class="main main_margin">
+        <div class="container">
+            <div class="row">
+                <div class="main__nav col-lg-2 col-md-2 col-sm-12">
+                    <ul class="main__navigation">
+                        <li class="main__item">
+                            <a href="./dashboard.html" class="main__link main__link_big"><i
+                                    class="fas fa-th-list main__icon"></i> Dashboard</a>
+                            <a href="./dashboard.html" class="main__link main__link_mini"><i
+                                    class="fas fa-th-list main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./download.html" class="main__link main__link_big"><i
+                                    class="fas fa-cloud-download-alt main__icon"></i> Download</a>
+                            <a href="./download.html" class="main__link main__link_mini"><i
+                                    class="fas fa-cloud-download-alt main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./subscription.html" class="main__link main__link_big main__link_active"><i class="fas fa-wallet main__icon"></i>
+                                Subscription</a>
+                            <a href="./subscription.html" class="main__link main__link_mini main__link_active"><i
+                                    class="fas fa-wallet main__icon"></i></a>
+                        </li>
+                        <li class="main__item">
+                            <a href="./support.html" class="main__link main__link_big"><i class="fas fa-info-circle main__icon"></i>
+                                Support</a>
+                            <a href="./support.html" class="main__link main__link_mini"><i
+                                    class="fas fa-info-circle main__icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__content col-lg-7 col-md-10 col-sm-12">
+                    <div class="sub">
+                        <div class="sub__head">
+                            <div class="sub__block">
+                                <p class="sub__text">Start date</p>
+                                <p class="sub__text" id="startdate">07.03.2020</p>
+                            </div>
+
+                            <div class="sub__block">
+                                <p class="sub__text">Expiration date</p>
+                                <p class="sub__text" id="enddate">06.03.2021</p>
+                            </div>
+
+                            <div class="sub__block">
+                                <p class="sub__text">Billing</p>
+                                <p class="sub__text" id="billing">x 4654 Auto Renew <i class="fas fa-chevron-down"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sub__bottom row">
+                            <div class="sub__var col-3">
+                                <p class="sub__number">3</p>
+                                <p class="sub__det">days</p>
+                                <p class="sub__det">Trial</p>
+                                <p class="sub__cost">Free</p>
+                            </div>
+
+                            <div class="sub__var sub__var_active col-3">
+                                <p class="sub__number">12</p>
+                                <p class="sub__det">month</p>
+                                <p class="sub__det">11,6 EUR/mth</p>
+                                <p class="sub__cost">ACTIVE</p>
+                            </div>
+
+                            <div class="sub__var col-3">
+                                <p class="sub__number">6</p>
+                                <p class="sub__det">month</p>
+                                <p class="sub__det">13.3 EUR/mth</p>
+                                <p class="sub__cost">80 EUR</p>
+                            </div>
+
+                            <div class="sub__var col-3">
+                                <p class="sub__number">1</p>
+                                <p class="sub__det">month</p>
+                                <p class="sub__det">15 EUR/mth</p>
+                                <p class="sub__cost">15 EUR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer center">
+        <div class="footer__block">
+            <p class="footer__copy">Copyright © 2020 Gettink inc. All rights reserved.</p> <a href="#"
+                class="footer__link">Privacy Policy</a><a href="#" class="footer__link">Terms of Use</a>
+            <select name="lang" id="lang" class="footer__select">
+                <option class="footer__option" value="eng">ENG</option>
+            </select>
+        </div>
+        <div class="footer__block">
+            <a href="#" class="footer__link">INDEV</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
